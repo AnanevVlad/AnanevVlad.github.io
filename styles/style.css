@@ -69,6 +69,7 @@ h3{
 }
 .img_plate_text{
     text-align: center;
+    line-height: 70px;
     font-size: 60px;
     color: brown;
 }
