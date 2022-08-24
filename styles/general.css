@@ -1,0 +1,69 @@
+.first_block,.grid1{
+    background: lightgreen;
+}
+.first_block>div+div+div,.grid3{
+    background: lightpink;
+}
+.first_block>div+div,.grid2{
+    background: lightcyan;
+}
+.second_block>div>div,.grid4,#first_grid2{
+    background: lightseagreen;
+}
+.second_block>div+div>div,.grid5,#second_grid2{
+    background:lightyellow;
+}
+.second_block>div+div>div+div,.grid7,#fourth_grid2{
+   background: lightgreen;
+}
+.second_block>div+div>div+div+div,.grid8,#fifth_grid2{
+  background: lightskyblue;
+}
+.second_block,.second_block>div>div+div,.grid6{
+    background:lightsalmon;
+}
+.third_block>div>div,.grid9,#first_grid3{
+    background: lightskyblue;
+}
+.third_block,.grid10,.second_grid3{
+    background: lightslategray;
+}
+.third_block>div>div>div,.grid11,#third_grid3{
+    background-color: lightgrey;
+}
+.third_block>div>div>div+div,.grid12,#fourth_grid3{
+    background-color: lightcoral;
+}
+.fourth_block>div,.grid13{
+    background: lightblue;
+}
+.fourth_block,.fourth_block>div+div,.grid14{
+    background: lightyellow;
+}
+.fourth_block>div>div+div,.grid15,#third_grid4{
+    background: lightgreen
+}
+.fourth_block>div>div+div>div+div,.grid16,#fourth_grid4{
+    background: lightseagreen;
+}
+.fourth_block>div>div+div>div+div>div+div,.grid17,#fifth_grid4{
+    background: lightpink;
+}
+.width1{
+    width: 400px;
+
+}
+.width2{
+  width: 800px;  
+}
+.width3{
+    width: 600px;
+}
+.width4{
+    width: 300px;
+}
+.wrapper{
+    width: 1200px;
+    margin: 10px auto;
+    font-size: 25px;
+}

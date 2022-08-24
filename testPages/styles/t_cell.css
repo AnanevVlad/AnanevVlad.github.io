@@ -1,0 +1,6 @@
+@import url('reset.css');
+@import url('general.css');
+
+.t_cell {
+    display: table-cell;
+}

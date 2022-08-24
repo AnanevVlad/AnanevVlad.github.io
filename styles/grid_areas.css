@@ -1,0 +1,71 @@
+@import url('reset.css');
+@import url('general.css');
+.wrapper{
+    display: grid;
+    grid-template-areas:
+    "A A A A B B B B C C C C"
+    "D D D D D D D D E E E E"
+    "F F F F F F F F E E E E"
+    "F F F F F F F F G G G G"
+    "F F F F F F F F H H H H"
+    "I I I I I I J J J J J J"
+    "K K K L L L J J J J J J"
+    "M M M M M M M M N N N N"
+    "O O O O P P P P N N N N"
+    "O O O O Q Q Q Q N N N N"
+
+    
+   
+ 
+}
+.grid1{
+    grid-area: A;
+}
+.grid2{
+    grid-area: B;
+}
+.grid3{
+    grid-area: C;
+}
+.grid4{
+    grid-area: D;
+}
+.grid5{
+    grid-area: E;
+}
+.grid6{
+    grid-area: F;
+}
+.grid7{
+    grid-area: G;
+}
+.grid8{
+    grid-area: H;
+}
+.grid9{
+    grid-area: I;
+}
+.grid10{
+    grid-area: J;
+}
+.grid11{
+    grid-area: K;
+}
+.grid12{
+    grid-area: L;
+}
+.grid13{
+    grid-area: M;
+}
+.grid14{
+    grid-area: N;
+}
+.grid15{
+    grid-area: O;
+}
+.grid16{
+    grid-area: P;
+}
+.grid17{
+    grid-area: Q;
+}

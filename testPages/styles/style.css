@@ -1,0 +1,65 @@
+@import url('reset.css');
+h2 {
+    font-size: 48px;
+    color: brown;
+}
+
+
+
+.text {
+    text-align: center;
+    margin: 0 8px;
+    font-weight: 800;
+}
+
+div.main {
+    margin: 0 auto;
+    width: 1200px;
+    background: rgba(219, 219, 219, 0.486);
+    padding: 0 5px;
+
+
+}
+
+div.main>div+div {
+    border-top: 2px dashed green;
+}
+
+p+p {
+    color: blue;
+}
+
+#mainText {
+    color: midnightblue;
+    font-size: 90px;
+    
+}
+
+.other {
+    background-color: darkorange;
+    width: 150px;
+    padding: 0 5px;
+
+}
+a{
+    text-decoration: none;
+    font-size: 20px;
+}
+p{
+    margin-bottom: 10px;
+}
+h3{
+    font-size: 24px;
+    font-weight: 700;
+    color: green;
+    margin: 8px 0;
+}
+.links{
+    text-align: center;
+    margin-top: 10px;
+}
+.newTask{
+    display: block;
+    margin: 5px;
+    font-size: 48px;
+}
