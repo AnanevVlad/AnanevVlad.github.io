@@ -67,7 +67,7 @@ h3{
     display: inline-block;
     position: relative;
 }
-h4{
+.img_plate_text{
     text-align: center;
     font-size: 60px;
     color: brown;
