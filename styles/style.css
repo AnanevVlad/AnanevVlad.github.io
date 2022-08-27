@@ -78,6 +78,7 @@ h3{
     line-height: 70px;
     font-size: 50px;
     color: brown;
+   display: none;
 }
 .back{
     display: block;
@@ -85,7 +86,8 @@ h3{
 .aside_menu_link{
     display: block;
     font-size: 25px;
-    text-align: center;
+    
+    
 }
 .aside_menu{
     background-color: rgba(0, 255, 255, 0.459);
@@ -95,4 +97,10 @@ h3{
     margin-top: -50px;
     top: 50%;
     border: none;
+}
+.img_wrapper:hover .img_plate_text{
+    display: block;
+}
+li{
+    text-align: center;
 }
