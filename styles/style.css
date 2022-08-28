@@ -429,7 +429,6 @@ h3{
 .nav_menu>li{
     display: inline-block;
     border-right: 2px solid green;
-    background: rgb(159, 158, 158);
     font-size: 48px;
   
 }
@@ -440,6 +439,7 @@ h3{
 .nav_menu a{
     display: block;
     color: black;
+    background: rgb(159, 158, 158);
 }
 .nav_menu>li>a{
 padding: 0 20px;
@@ -459,7 +459,6 @@ padding: 0 20px;
     
 }
 .nav_menu_block li{
-    background: rgb(159, 158, 158);
     border-bottom: 2px solid green;
 }
 .nav_menu_block li:last-child{
