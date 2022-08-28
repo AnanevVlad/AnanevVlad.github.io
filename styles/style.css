@@ -202,7 +202,7 @@ h3{
 }
 .wrapper{
     width: 1200px;
-    margin: 10px auto;
+    margin: 0 auto;
     font-size: 25px;
 }
 .t_cell {
@@ -273,10 +273,7 @@ h3{
    
  
 }
-.ul_wrapper{
-    margin: 10px 0 0 0 ;
-}
-.nav_menu{
+.nav_grid{
     grid-area: U;
 }
 .grid1_areas{
