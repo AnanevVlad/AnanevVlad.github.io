@@ -119,6 +119,7 @@ h3{
 .aside_menu_link{
     display: block;
     font-size: 25px;
+    text-align: center;
     
     
 }
@@ -134,9 +135,7 @@ h3{
 .img_wrapper:hover .img_plate_text{
     display: block;
 }
-li{
-    text-align: center;
-}
+
 .first_block,.grid1,.grid1_areas{
     background: lightgreen;
 }
@@ -257,6 +256,7 @@ li{
 .grid_wrapper{
     display: grid;
     grid-template-areas:
+    "U U U U U U U U U U U U"
     "A A A A B B B B C C C C"
     "D D D D D D D D E E E E"
     "F F F F F F F F E E E E"
@@ -275,6 +275,9 @@ li{
 }
 .ul_wrapper{
     margin: 10px 0 0 0 ;
+}
+.nav_menu{
+    grid-area: U;
 }
 .grid1_areas{
     grid-area: A;
