@@ -438,11 +438,10 @@ h3{
    
 }
 .nav_menu a{
-    
+    display: block;
     color: black;
 }
 .nav_menu>li>a{
-    display: block;
 padding: 0 20px;
 }
 .nav_menu a:visited{
