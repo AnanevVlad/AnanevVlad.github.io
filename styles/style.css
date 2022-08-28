@@ -17,7 +17,7 @@ time, mark, audio, video {
 	font-size: 100%;
 	font: inherit;
 	vertical-align: baseline;
-}
+}d
 article, aside, details, figcaption, figure, 
 footer, header, hgroup, menu, nav, section {
 	display: block;
@@ -94,15 +94,6 @@ h3{
     font-weight: 700;
     color: green;
     margin: 8px 0;
-}
-.links{
-    text-align: center;
-    margin-top: 10px;
-}
-.newTask{
-    display: block;
-    margin: 5px;
-    font-size: 48px;
 }
 .img_wrapper{
     display: inline-block;
