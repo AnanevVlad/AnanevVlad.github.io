@@ -97,7 +97,6 @@ h3{
 .img_wrapper{
     display: inline-block;
     position: relative;
-    z-index: 5;
 }
 .img_plate_text{
     width: 100%;
@@ -424,7 +423,7 @@ h3{
     font-size: 0;
     text-align: center;
     position: relative;
-    z-index: 10;
+    z-index: 5;
 }
 .nav_menu>li{
     display: inline-block;
