@@ -439,6 +439,9 @@ h3{
 .nav_menu a{
     display: block;
     color: black;
+    
+}
+.nav_menu li{
     background: rgb(159, 158, 158);
 }
 .nav_menu>li>a{
