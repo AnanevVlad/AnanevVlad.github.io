@@ -454,6 +454,8 @@ padding: 0 20px;
 }
 .nav_menu_block>ul{
     padding: 25px 0 ;
+    top: 100%;
+    left: 0;
     position: absolute;
     display: none;
     width: 100%;
