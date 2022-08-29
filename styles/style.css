@@ -436,8 +436,10 @@ h3{
     border: 0;
    
 }
-.nav_menu a{
+li>a{
     display: block;
+}
+.nav_menu a{
     color: black;
     background: rgb(159, 158, 158);
 }
