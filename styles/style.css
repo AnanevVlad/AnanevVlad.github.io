@@ -431,7 +431,7 @@ h3{
     font-size: 48px;
   
 }
-.nav_menu>li:last-child{
+.nav_menu li:last-child{
     border: 0;
    
 }
@@ -445,7 +445,7 @@ li>a{
 .nav_menu li{
     background: rgb(177, 144, 144);
 }
-.nav_menu>li>a{
+.nav_menu li>a{
 padding: 0 20px;
 }
 .nav_menu a:visited{
@@ -460,16 +460,14 @@ padding: 0 20px;
     left: 0;
     position: absolute;
     display: none;
-    width: 100%;
+   
    
     
 }
 .nav_menu_block li{
     border-bottom: 2px solid green;
 }
-.nav_menu_block li:last-child{
-    border: 0;
-}
+
 .nav_menu_block:hover>ul{
     display: block;
   
