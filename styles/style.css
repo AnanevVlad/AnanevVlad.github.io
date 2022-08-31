@@ -468,10 +468,6 @@ padding: 0 20px;
     border-bottom: 2px solid green;
 }
 
-.nav_menu_block:hover>ul{
-    display: block;
-  
-}
 .nav_menu_block_float{
     position: relative;
     
@@ -483,10 +479,7 @@ padding: 0 20px;
     bottom: 0;
     padding: 0 25px;
 }
-.nav_menu_block_float:hover>ul{
-    display: block;
 
-}
 .nav_menu_block_grid{
     position: relative;
 }
@@ -497,7 +490,6 @@ padding: 0 20px;
     top: 0;
     padding: 0 25px;
 }
-.nav_menu_block_grid:hover>ul{
+li:hover>ul{
     display: block;
-
 }
