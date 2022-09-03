@@ -446,11 +446,12 @@ li>a{
     background: rgb(177, 144, 144);
 }
 
-.nav_menu li>.bf{
-    padding: 10px 0 0 55px ;
+.bf{
+    padding: 13px 20px 13px 55px ;
+
 }
-.nav_menu li>.af{
-    padding: 10px 55px 0 0;
+.af{
+    padding: 13px 55px 13px 20px;
 }
 
 .nav_menu a:visited{
@@ -505,7 +506,7 @@ li:hover>ul{
     display: inline-block;
     margin: 0 10px;
 }
-.social_menu>li a,.nav_menu li>.icons::before{
+.social_menu>li a,.icons::before{
     width: 50px;
     height: 50px;
     background: url('../img/css_sprites.png');
@@ -544,11 +545,13 @@ li:hover>ul{
    position: absolute;
 }
 .bf::before{
-    top: 0;
+    top: 50%;
+    margin-top: -25px;
     left: 0;
 }
 .af::before{
-    top: 0;
+    top: 50%;
+    margin-top: -25px;
    right:0;
 }
 .nav_menu>li>a.home::before{
