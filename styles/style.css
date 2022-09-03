@@ -445,9 +445,14 @@ li>a{
 .nav_menu li{
     background: rgb(177, 144, 144);
 }
-.nav_menu li>a{
-padding: 0 20px;
+
+.nav_menu li>.bf{
+    padding: 10px 0 0 55px ;
 }
+.nav_menu li>.af{
+    padding: 10px 55px 0 0;
+}
+
 .nav_menu a:visited{
     color: black;
 }
@@ -459,9 +464,7 @@ padding: 0 20px;
     top: 100%;
     left: 0;
     position: absolute;
-    display: none;
-   
-   
+    display: none;   
     
 }
 .nav_menu_block li{
@@ -492,4 +495,85 @@ padding: 0 20px;
 }
 li:hover>ul{
     display: block;
+}
+.social_menu{
+    font-size: 0;
+    text-align: center;
+    padding: 40px 0 0 0 ;
+}
+.social_menu li{
+    display: inline-block;
+    margin: 0 10px;
+}
+.social_menu>li a,.nav_menu li>.icons::before{
+    width: 50px;
+    height: 50px;
+    background: url('../img/css_sprites.png');
+}
+.social_menu>.git>a{
+    background-position: -50px 0;
+}
+.social_menu>.inst>a{
+    background-position: -100px 0; 
+}
+
+.social_menu>.bnet>a{
+    background-position: -150px 0;
+}
+
+.social_menu>.tg>a:hover{
+    background-position: 0 -50px;
+}
+
+.social_menu>.git>a:hover{
+    background-position: -50px -50px;
+}
+.social_menu>.inst>a:hover{
+    background-position: -100px -50px; 
+}
+
+.social_menu>.bnet>a:hover{
+    background-position: -150px -50px;
+}
+.nav_menu li a{
+    position: relative;
+}
+
+.nav_menu li>.icons::before{
+    content: '';
+   position: absolute;
+}
+.bf::before{
+    top: 0;
+    left: 0;
+}
+.af::before{
+    top: 0;
+   right:0;
+}
+.nav_menu>li>a.home::before{
+    background-position: 0 -100px;
+}
+.nav_menu>li>a.gallery::before{
+    background-position: -50px -100px;
+}
+.nav_menu li>.blocks::before{
+    background-position: -150px -100px;
+}
+.nav_menu>.nav_menu_block:hover>.blocks::before{
+    background-position: -100px -100px;
+}
+a.float.bf::before{
+    background-position: -200px -100px;
+}
+.nav_menu_block_float:hover>a.float.bf:before{
+    background-position: -250px -100px;
+}
+
+
+a.grids.af::before{
+    background-position: -250px -100px;
+}
+.nav_menu_block_grid:hover>a.grids.af::before{
+    background-position: -200px -100px;
 }
