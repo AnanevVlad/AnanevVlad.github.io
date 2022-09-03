@@ -447,11 +447,11 @@ li>a{
 }
 
 .bf{
-    padding: 13px 20px 13px 55px ;
+    padding: 13px 20px 5px 55px ;
 
 }
 .af{
-    padding: 13px 55px 13px 20px;
+    padding: 13px 55px 5px 20px;
 }
 
 .nav_menu a:visited{
