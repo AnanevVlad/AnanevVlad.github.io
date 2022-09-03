@@ -431,6 +431,7 @@ h3{
     font-size: 48px;
   
 }
+
 .nav_menu li:last-child{
     border: 0;
    
@@ -445,7 +446,9 @@ li>a{
 .nav_menu li{
     background: rgb(177, 144, 144);
 }
-
+.all{
+    padding: 13px 20px 5px 20px
+}
 .bf{
     padding: 13px 20px 5px 55px ;
 
@@ -470,6 +473,7 @@ li>a{
 }
 .nav_menu_block li{
     border-bottom: 2px solid green;
+    
 }
 
 .nav_menu_block_float{
