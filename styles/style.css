@@ -446,14 +446,14 @@ li>a{
 .nav_menu li{
     background: rgb(177, 144, 144);
 }
-.all{
+.nav_menu li>a{
     padding: 13px 20px 5px 20px
 }
-.bf{
+.nav_menu li>.bf{
     padding: 13px 20px 5px 55px ;
 
 }
-.af{
+.nav_menu li>.af{
     padding: 13px 55px 5px 20px;
 }
 
