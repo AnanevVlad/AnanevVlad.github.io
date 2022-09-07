@@ -133,7 +133,7 @@ h3{
     margin-top: -50px;
     top: 50%;
     border: none;
-    z-index: 20;
+    width: calc(50vw - 605px);
 }
 .img_wrapper:hover .img_plate_text{
     display: block;
@@ -498,6 +498,7 @@ right: 0;
 }
 .nav_menu_block_grid{
     position: relative;
+    
 }
 .nav_menu_block_grid>ul{
     position: absolute;
