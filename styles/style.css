@@ -507,23 +507,24 @@ right: 0;
     padding: 0 25px;
 }
 .nav_menu_block>ul>li>ul{
-    height: 0;
+    max-height: 0;
     overflow: hidden;
     opacity: 0;
+    pointer-events: none;
 }
 .nav_menu_block>ul>li:hover>ul{
-    transition: all 1s ease-out;
+    transition: all 2s ease-out;
     opacity: 100;
+    pointer-events: all;
 }
 .nav_menu_block>ul>li>ul:hover{
  overflow: visible;
+ 
 }
-.nav_menu_block_grid:hover>ul{
-    height: calc(300% + 4px );
+.nav_menu_block>ul>li:hover>ul{
+    max-height:400%;
 }
-.nav_menu_block_float:hover>ul{
-    height: calc(200% + 2px );
-}
+
 .social_menu{
     font-size: 0;
     text-align: center;
