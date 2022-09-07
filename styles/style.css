@@ -449,7 +449,7 @@ li>a{
 .nav_menu li>a{
     padding: 13px 20px 5px 20px
 }
-.nav_menu li>.bf{
+.nav_menu li>.icons{
     padding: 13px 20px 5px 55px ;
 
 }
@@ -544,18 +544,17 @@ li:hover>ul{
     position: relative;
 }
 
-.nav_menu li>.icons:before{
+.icons:before{
     content: '';
    position: absolute;
    top: 50%;
    margin-top: -25px;
+   left: 0;
 
 }
-.bf:before{
-    left: 0;
-}
+
 .af:before{
-
+left: auto;
    right:0;
 }
 .nav_menu>li>a.home:before{
