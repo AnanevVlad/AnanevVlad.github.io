@@ -547,14 +547,13 @@ li:hover>ul{
 .nav_menu li>.icons::before{
     content: '';
    position: absolute;
+   top: 50%;
 }
 .bf::before{
-    top: 50%;
     margin-top: -25px;
     left: 0;
 }
 .af::before{
-    top: 50%;
     margin-top: -25px;
    right:0;
 }
