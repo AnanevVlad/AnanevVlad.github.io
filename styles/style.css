@@ -544,43 +544,43 @@ li:hover>ul{
     position: relative;
 }
 
-.nav_menu li>.icons::before{
+.nav_menu li>.icons:before{
     content: '';
    position: absolute;
    top: 50%;
    margin-top: -25px;
 
 }
-.bf::before{
+.bf:before{
     left: 0;
 }
-.af::before{
+.af:before{
 
    right:0;
 }
-.nav_menu>li>a.home::before{
+.nav_menu>li>a.home:before{
     background-position: 0 -100px;
 }
-.nav_menu>li>a.gallery::before{
+.nav_menu>li>a.gallery:before{
     background-position: -50px -100px;
 }
 .nav_menu>li>a.blocks::before{
     background-position: -150px -100px;
 }
-.nav_menu>.nav_menu_block:hover>.blocks::before{
+.nav_menu>.nav_menu_block:hover>.blocks:before{
     background-position: -100px -100px;
 }
-a.float.bf::before{
+a.float::before{
     background-position: -200px -100px;
 }
-.nav_menu_block_float:hover>a.float.bf:before{
+.nav_menu_block_float:hover>a.float:before{
     background-position: -250px -100px;
 }
 
 
-a.grids.af::before{
+a.grids::before{
     background-position: -250px -100px;
 }
-.nav_menu_block_grid:hover>a.grids.af::before{
+.nav_menu_block_grid:hover>a.grids:before{
     background-position: -200px -100px;
 }
