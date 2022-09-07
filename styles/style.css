@@ -548,6 +548,7 @@ li:hover>ul{
     content: '';
    position: absolute;
    top: 50%;
+
 }
 .bf::before{
     margin-top: -25px;
@@ -555,6 +556,14 @@ li:hover>ul{
 }
 .af::before{
     margin-top: -25px;
+
+   margin-top: -25px;
+}
+.bf::before{
+    left: 0;
+}
+.af::before{
+
    right:0;
 }
 .nav_menu>li>a.home::before{
@@ -563,7 +572,7 @@ li:hover>ul{
 .nav_menu>li>a.gallery::before{
     background-position: -50px -100px;
 }
-.nav_menu li>.blocks::before{
+.nav_menu>li>a.blocks::before{
     background-position: -150px -100px;
 }
 .nav_menu>.nav_menu_block:hover>.blocks::before{
