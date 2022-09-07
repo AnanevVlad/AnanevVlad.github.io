@@ -548,16 +548,8 @@ li:hover>ul{
     content: '';
    position: absolute;
    top: 50%;
-
-}
-.bf::before{
-    margin-top: -25px;
-    left: 0;
-}
-.af::before{
-    margin-top: -25px;
-
    margin-top: -25px;
+
 }
 .bf::before{
     left: 0;
