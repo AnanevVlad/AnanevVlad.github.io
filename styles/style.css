@@ -512,13 +512,13 @@ right: 0;
     opacity: 50%;
 }
 .nav_menu_block>ul>li:hover>ul{
-    transition: height 1s ease-out,
-    opacity 1s ease 1s;
+    transition: height .5s ease-out,
+    opacity .5s ease;
     opacity: 100%;
 }
 .nav_menu_block>ul>li>ul{
-    transition: opacity 1s ease,
-    height 1s ease-out 1s;
+    transition: opacity .5s ease,
+    height .5s ease-out .5s;
    
 }
 .nav_menu_block>ul>li>ul:hover{
