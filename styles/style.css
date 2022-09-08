@@ -510,13 +510,11 @@ right: 0;
     height: 0;
     overflow: hidden;
     opacity: 50%;
-    pointer-events: none;
 }
 .nav_menu_block>ul>li:hover>ul{
     transition: height 1s ease-out,
     opacity 1s ease 1s;
     opacity: 100%;
-    pointer-events: all;
 }
 .nav_menu_block>ul>li>ul:hover{
  overflow: visible;
