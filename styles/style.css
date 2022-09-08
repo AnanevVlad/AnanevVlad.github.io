@@ -516,6 +516,11 @@ right: 0;
     opacity 1s ease 1s;
     opacity: 100%;
 }
+.nav_menu_block>ul>li>ul{
+    transition: opacity 1s ease,
+    height 1s ease-out 1s;
+   
+}
 .nav_menu_block>ul>li>ul:hover{
  overflow: visible;
 }
