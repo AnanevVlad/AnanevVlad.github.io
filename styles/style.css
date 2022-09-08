@@ -519,6 +519,7 @@ right: 0;
 .nav_menu_block>ul>li>ul:hover{
  overflow: visible;
 }
+/* Дальше обращения для каждого списка отдельно ,для корректности анимации ,со скриптом разбираюсь ,чтобы работал универсально */
 .nav_menu_block_grid:hover>ul{
     height: calc(300% + 4px );
 }
