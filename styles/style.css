@@ -512,8 +512,8 @@ right: 0;
     opacity: 50%; 
 }
 .nav_menu_block>ul>li:hover>ul{
-    transition: height .5s ease-out,
-    opacity .5s ease;
+    transition: all 1s ease-out;
+    
     opacity: 100%;
 }
 .nav_menu_block>ul>li>ul{
