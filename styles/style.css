@@ -467,7 +467,7 @@ li>a{
 .nav_menu_block>ul{
     padding: 25px 0 ;
     top: 100%;
-    right: -230%;
+    right: -100%;
     position: absolute;
     opacity: 0;
     pointer-events: none;
