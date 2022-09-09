@@ -540,7 +540,7 @@ right: 0;
     display: inline-block;
     margin: 0 10px;
 }
-.social_menu>li a,.icons::before{
+.social_menu>li a,.icons::before,.bg{
     width: 50px;
     height: 50px;
     background: url('../img/css_sprites.png');
@@ -612,4 +612,50 @@ a.grids::before{
 }
 .nav_menu_block_grid:hover>a.grids:before{
     background-position: -200px -100px;
+}
+.call{
+    position: fixed;
+    background: rgba(172, 255, 47, 0.623);
+    top: 50%;
+    right: 0%;
+    margin-right:-50px;
+    transition: all .5s linear;
+    padding: 10px 0;
+   
+}
+
+.arrow{
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+    background-position: -200px -100px;
+    
+}
+
+.call_link{
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+    position: relative;
+   animation: circle .5s linear infinite alternate-reverse;
+   background-position: 0 -150px;
+ 
+}
+.call:hover{
+
+    margin-right:0;
+
+}
+.call:hover .arrow{
+    background-position: -250px -100px;
+
+}
+@keyframes circle {
+    0%{
+transform:rotate(0deg);
+    }
+
+    100%{
+        transform:rotate(45deg);
+    }
 }
