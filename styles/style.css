@@ -540,7 +540,7 @@ right: 0;
     display: inline-block;
     margin: 0 10px;
 }
-.social_menu>li a,.icons::before,.arrow,.call_link{
+.social_menu>li a,.icons::before,.call::before,.call_link{
     width: 50px;
     height: 50px;
     background: url('../img/css_sprites.png');
@@ -624,7 +624,8 @@ a.grids::before{
    
 }
 
-.arrow{
+.call::before{
+    content: '';
     display: inline-block;
     width: 50px;
     height: 50px;
@@ -646,7 +647,7 @@ a.grids::before{
     margin-right:0;
 
 }
-.call:hover .arrow{
+.call:hover .call::before{
     background-position: -250px -100px;
 
 }
