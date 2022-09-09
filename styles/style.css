@@ -647,7 +647,7 @@ a.grids::before{
     margin-right:0;
 
 }
-.call:hover .call::before{
+.call:hover:before{
     background-position: -250px -100px;
 
 }
