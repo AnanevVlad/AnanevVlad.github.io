@@ -863,7 +863,7 @@ a.grids::before {
     background: rgba(172, 255, 47, 0.623);
     top: 50%;
     right: 0%;
-    margin-right: -50px;
+    transform: translate(50%);
     transition: all .5s linear;
     padding: 10px 0;
 
@@ -889,7 +889,7 @@ a.grids::before {
 
 .call:hover {
 
-    margin-right: 0;
+    transform: translate(0);
 
 }
 
