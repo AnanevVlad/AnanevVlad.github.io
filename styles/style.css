@@ -772,7 +772,7 @@ li>a {
 
 .social_menu>li a,
 .icons::before,
-.call::before,
+.call::after,
 .call_link {
     width: 50px;
     height: 50px;
@@ -862,20 +862,19 @@ a.grids::before {
     position: fixed;
     background: rgba(172, 255, 47, 0.623);
     top: 50%;
-    right: 0%;
-    transform: translate(50%);
+    left: 0%;
+    transform: translate(-50%);
     transition: all .5s linear;
     padding: 10px 0;
 
 }
 
-.call::before {
+.call::after {
     content: '';
     display: inline-block;
     width: 50px;
     height: 50px;
-    background-position: -200px -100px;
-
+    background-position: -250px -100px;
 }
 
 .call_link {
@@ -898,8 +897,9 @@ a.grids::before {
     animation: circle .5s linear infinite alternate .5s;
 
 }
-.call:hover:before {
-    background-position: -250px -100px;
+.call:hover::after {
+    background-position: -200px -100px;
+    
 
 }
 
@@ -911,4 +911,58 @@ a.grids::before {
     100% {
         transform: rotate(45deg);
     }
+}
+.honeycomb{
+ display:grid;
+ width: 120px;
+ grid-template-columns: repeat(2 ,60px);
+ transform: rotate(45deg);
+}
+
+.honeycomb li>a {
+    width: 50px;
+    height: 50px;
+    position: relative;
+    overflow: hidden;
+   background: lightblue;
+}
+.honeycomb li{
+    margin: 0 10px 10px 0;
+}
+.disc a:before {
+    background-position: 0 -200px;
+
+}
+.mail a:before {
+    background-position: -50px -200px;
+}
+.fb  a:before{
+    background-position: -100px -200px;
+}
+.steam  a:before{
+    background-position: -150px -200px;
+}
+.honeycomb a::before{
+    transform: rotate(-45deg);
+}
+.hover_me{
+    position: fixed;
+    top: 50%;
+    right: 0;
+    background: lightgreen;
+    width:200px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.hover_me p{
+    display: inline-block;
+    font-size: 50px;
+    writing-mode: vertical-lr;
+   transform: rotate(180deg);
+    background: lightslategray;
+    margin:0 20px 0 0;
+}
+.inline{
+    display: inline-block;
 }
