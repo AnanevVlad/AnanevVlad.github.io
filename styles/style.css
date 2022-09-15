@@ -927,6 +927,10 @@ display: grid;
     overflow: hidden;
    background: lightblue;
 }
+.honeycomb li>a:hover {
+  
+   background: rgb(122, 162, 175);
+}
 .honeycomb li{
     margin: 0 10px 10px 0;
     display: inline-block;
