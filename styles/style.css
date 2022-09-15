@@ -913,10 +913,10 @@ a.grids::before {
     }
 }
 .honeycomb{
- display:grid;
- width: 120px;
- grid-template-columns: repeat(2 ,60px);
- transform: rotate(45deg) scale(0,2);
+
+ width: 140px;
+ /* grid-template-columns: repeat(2 ,60px); */
+ /* transform: rotate(45deg) scale(0,2); */
  z-index: 10;
  margin: 0 0 0 20px;
  transition: all 1s ease;
@@ -930,6 +930,7 @@ a.grids::before {
 }
 .honeycomb li{
     margin: 0 10px 10px 0;
+    display: inline-block;
 }
 .disc a:before {
     background-position: 0 -200px;
