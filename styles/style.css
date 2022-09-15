@@ -932,8 +932,7 @@ display: grid;
 
 }
 .honeycomb li{
-    margin: 0 10px 10px 0;
-   
+    margin: 0 0 10px 0;
 }
 .disc a:before {
     background-position: 0 -200px;
