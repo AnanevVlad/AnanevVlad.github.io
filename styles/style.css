@@ -965,7 +965,7 @@ a.grids::before {
     writing-mode: vertical-lr;
    transform: rotate(180deg) ;
     background: lightslategray;
-    animation: pulse .5s linear infinite alternate;
+    animation: pulse .5s linear infinite alternate 7s;
     margin: 0;
     perspective: 200px;
     z-index: 5;
