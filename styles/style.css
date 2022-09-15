@@ -1006,7 +1006,7 @@ a.grids::before {
 }.hover_me:hover p::before{
     transition: transform 0.5s linear 1s,width 1s linear 1.5s;
    transform: rotateY(-0.5turn);
-   width: 170px;
+width: 170px;
   color: crimson;
  
 
