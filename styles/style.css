@@ -927,13 +927,13 @@ display: grid;
     overflow: hidden;
    background: lightblue;
 }
-.honeycomb li>a:hover {
-  
-   background: rgb(122, 162, 175);
+.honeycomb li>a:hover{
+    background: rgb(96, 169, 194);
+
 }
 .honeycomb li{
     margin: 0 10px 10px 0;
-    display: inline-block;
+   
 }
 .disc a:before {
     background-position: 0 -200px;
