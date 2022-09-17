@@ -1169,10 +1169,13 @@ border-top: 50px solid gray;
     width: 400px;
     height: 50px;
     background: rgb(146, 112, 68);
-    z-index: 10;;
-    transform: translateY(-30vh);
     animation: shake .5s linear infinite alternate-reverse;
     perspective: 200px;
+}
+.boat_position{
+    position: absolute;
+    z-index: 10;
+    bottom: 5vh;
 }
 .boat::before{
     content: '';
@@ -1264,9 +1267,9 @@ animation: wind 1s linear infinite alternate-reverse;
 .waves_group{
     font-size: 0;
     position: absolute;
-transform: translateY(-40vh);
 z-index: 15;
 animation: way .3s linear infinite reverse;
+bottom: 1vh;
 
 }
 .waves_group div{
@@ -1314,19 +1317,19 @@ animation: way .3s linear infinite reverse;
 
   @keyframes shake {
     0%{
-        transform:translateY(30vh)  rotate(2deg);  
+        transform:rotate(2deg);  
     }
     100%{
-        transform:translateY(30vh) rotate(-2deg);
+        transform: rotate(-2deg);
     }
     
   }
   @keyframes way {
     0%{
-        transform: translateY(35vh) translateX(0);
+        transform: translateX(0);
     }
     100%{
-        transform: translateY(35vh) translateX(-5%)
+        transform:translateX(-5%)
     }
   }
   @keyframes wind {
@@ -1347,3 +1350,4 @@ animation: way .3s linear infinite reverse;
     }
     
   }
+/* сделать позиционирование для лодки абсолютным */
