@@ -1037,7 +1037,7 @@ display: grid;
     transform: rotate(45deg) scale(1,1);
 }
 .tools{
-    width: 100vw;
+    width: 100%;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -1145,7 +1145,7 @@ border-top: 50px solid gray;
   }
 
 .boat_scene{
-    width: 100vw;
+    width: 100%;
     height: 100vh;
     background: aquamarine;
     position: relative;
@@ -1269,7 +1269,7 @@ animation: wind 1s linear infinite alternate-reverse;
     position: absolute;
 z-index: 15;
 animation: way .3s linear infinite reverse;
-bottom: 1vh;
+bottom:5%;
 
 }
 .waves_group div{
@@ -1278,7 +1278,7 @@ bottom: 1vh;
 .waves{
     position: relative;
     width: 100px;
-    height: 90px;
+    height: 50px;
   }
   .waves:before,
   .waves:after {
