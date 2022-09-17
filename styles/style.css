@@ -1159,10 +1159,10 @@ border-top: 50px solid gray;
     width: 50%;
     bottom: 0;;
     left:50%;
-    transform: translate(-50%);
-  border-bottom: 200px solid lightseagreen;
-  border-left: 200px solid transparent;
-  border-right: 200px solid transparent;
+    transform: translate(-50%,0);
+  border-bottom: 20vh solid lightseagreen;
+  border-left: 20vh solid transparent;
+  border-right: 20vh solid transparent;
 }
 .boat{
     position: relative;
@@ -1289,7 +1289,7 @@ bottom: 1vh;
     width: 50px;
     height: 80px;
     background: linear-gradient(180deg, rgba(32, 178, 171, 0.356) 0%, lightseagreen 50%);
-    border-radius: 50px 50px 0 0;
+    border-radius: 40% 40% 0 0;
     transform-origin: 0 100%;
   }
   .waves:after {
@@ -1350,4 +1350,4 @@ bottom: 1vh;
     }
     
   }
-/* сделать позиционирование для лодки абсолютным */
+/* сделать волны вместо пикселей высотой и шириной экрана*/
