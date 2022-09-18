@@ -1036,17 +1036,27 @@ display: grid;
     transition: all 1s ease 2.5s;
     transform: rotate(45deg) scale(1,1);
 }
+.links{
+    text-align: center;
+    padding-top: 20px;
+    font-size: 48px;
+}
+.links a{
+    color: lawngreen;
+}
+.links a:visited{
+    color: lawngreen;
+}
 .tools{
-    width: 100vw;
+    width: 100%;
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: center;
-    padding: 50vh 0 0 0;
+ padding-top: 100px;
     background: yellow;
 }
 .tools div{
-    margin: 0 0 500px 0;
+    margin: 0 0 200px 0;
 }
 .bolt{
 height: 50px;
@@ -1116,8 +1126,8 @@ transform: translate(-50%,-50%);
     width: 500px;
     height: 50px;
     background:radial-gradient(circle at 95% 50%, rgba(255, 255, 255, 0) 3%,gray 3%);
-    border-top-right-radius: 10%;
-border-bottom-right-radius: 10%;
+    border-top-right-radius: 20px;
+border-bottom-right-radius: 20px;
     position: relative;
     text-align: center;
     font-size: 40px;
@@ -1142,11 +1152,12 @@ border-right: 50px solid gray;
 border-top: 50px solid gray;
   }
   .tool_rotate{
-    transform: rotate(25deg);
+    transform: translateX(50px) rotate(25deg);
+    transform-origin: 0 0;
   }
 
 .boat_scene{
-    width: 100vw;
+    width: 100%;
     height: 100vh;
     background: aquamarine;
     position: relative;
@@ -1160,20 +1171,23 @@ border-top: 50px solid gray;
     width: 50%;
     bottom: 0;;
     left:50%;
-    transform: translate(-50%);
-  border-bottom: 200px solid lightseagreen;
-  border-left: 200px solid transparent;
-  border-right: 200px solid transparent;
+    transform: translate(-50%,0);
+  border-bottom: 20vh solid lightseagreen;
+  border-left: 20vh solid transparent;
+  border-right: 20vh solid transparent;
 }
 .boat{
     position: relative;
     width: 400px;
     height: 50px;
     background: rgb(146, 112, 68);
-    z-index: 10;
-    transform: translate(0,700%);
     animation: shake .5s linear infinite alternate-reverse;
     perspective: 200px;
+}
+.boat_position{
+    position: absolute;
+    z-index: 10;
+    bottom: 5vh;
 }
 .boat::before{
     content: '';
@@ -1265,9 +1279,9 @@ animation: wind 1s linear infinite alternate-reverse;
 .waves_group{
     font-size: 0;
     position: absolute;
-transform: translateY(420%);
 z-index: 15;
 animation: way .3s linear infinite reverse;
+bottom:5%;
 
 }
 .waves_group div{
@@ -1276,7 +1290,7 @@ animation: way .3s linear infinite reverse;
 .waves{
     position: relative;
     width: 100px;
-    height: 90px;
+    height: 50px;
   }
   .waves:before,
   .waves:after {
@@ -1287,7 +1301,7 @@ animation: way .3s linear infinite reverse;
     width: 50px;
     height: 80px;
     background: linear-gradient(180deg, rgba(32, 178, 171, 0.356) 0%, lightseagreen 50%);
-    border-radius: 50px 50px 0 0;
+    border-radius: 40% 40% 0 0;
     transform-origin: 0 100%;
   }
   .waves:after {
@@ -1315,19 +1329,19 @@ animation: way .3s linear infinite reverse;
 
   @keyframes shake {
     0%{
-        transform: translate(0,700%) rotate(2deg);  
+        transform:rotate(2deg);  
     }
     100%{
-        transform: translate(0,700%) rotate(-2deg);
+        transform: rotate(-2deg);
     }
     
   }
   @keyframes way {
     0%{
-        transform: translateY(420%) translateX(0);
+        transform: translateX(0);
     }
     100%{
-        transform: translateY(420%) translateX(-10%)
+        transform:translateX(-5%)
     }
   }
   @keyframes wind {
@@ -1348,3 +1362,4 @@ animation: way .3s linear infinite reverse;
     }
     
   }
+/* сделать волны вместо пикселей высотой и шириной экрана*/
