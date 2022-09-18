@@ -1058,6 +1058,10 @@ display: grid;
 .tools div{
     margin:0 0  150px  0;
 }
+.wrapper_p{
+    width: 800px;
+    margin: 0 auto;
+}
 .bolt{
 height: 50px;
 width: 350px;
@@ -1286,7 +1290,7 @@ transform: translateX(-50%);
 .waves{
     position: relative;
     width: 100px;
-    height: 50px;
+    height: 30px;
   }
   .waves:before,
   .waves:after {
