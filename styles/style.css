@@ -1052,12 +1052,11 @@ display: grid;
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: center;
-    padding: 50vh 0 0 0;
+ padding-top: 100px;
     background: yellow;
 }
 .tools div{
-    margin: 0 0 500px 0;
+    margin: 0 0 200px 0;
 }
 .bolt{
 height: 50px;
@@ -1153,7 +1152,8 @@ border-right: 50px solid gray;
 border-top: 50px solid gray;
   }
   .tool_rotate{
-    transform: rotate(25deg);
+    transform: translateX(50px) rotate(25deg);
+    transform-origin: 0 0;
   }
 
 .boat_scene{
