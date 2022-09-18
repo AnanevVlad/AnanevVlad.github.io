@@ -1049,15 +1049,17 @@ display: grid;
 }
 .tools{
     width: 100%;
-    height: 100vh;
     display: flex;
     flex-direction: column;
     align-items: center;
  padding-top: 100px;
     background: yellow;
 }
+.wrapper_p{
+    height: 200vh;
+}
 .tools div{
-    margin:0 0  80px  0;
+    margin:0 0  150px  0;
 }
 .bolt{
 height: 50px;
@@ -1113,12 +1115,10 @@ transform: translate(-50%,-50%);
   .screw::before{
     content: '';
     position: absolute;
-    left: 0;
-    top: 0;
     width: 100%;
     height: 100%;
     transform: rotate(45deg);
-    box-shadow: 0px 0px 0px 100px gray inset;
+    box-shadow: 0px 0px 0px 70px gray inset;
 
 
  
@@ -1162,10 +1162,6 @@ border-top: 50px solid gray;
     height: 100vh;
     background: aquamarine;
     position: relative;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
 }
 .sea{
     position: absolute;
@@ -1189,6 +1185,9 @@ border-top: 50px solid gray;
     position: absolute;
     z-index: 10;
     bottom: 5vh;
+    bottom: 10%;
+    left: 50%;
+    transform: translateX(-50%);
 }
 .boat::before{
     content: '';
@@ -1282,8 +1281,9 @@ animation: wind 1s linear infinite alternate-reverse;
     position: absolute;
 z-index: 15;
 animation: way .3s linear infinite reverse;
-bottom:5%;
-
+bottom:7%;
+left: 50%;
+transform: translateX(-50%);
 }
 .waves_group div{
   display: inline-block;
@@ -1339,10 +1339,10 @@ bottom:5%;
   }
   @keyframes way {
     0%{
-        transform: translateX(0);
+        transform: translateX(-50%);
     }
     100%{
-        transform:translateX(-5%)
+        transform: translateX(-53%);
     }
   }
   @keyframes wind {
