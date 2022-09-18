@@ -1036,6 +1036,17 @@ display: grid;
     transition: all 1s ease 2.5s;
     transform: rotate(45deg) scale(1,1);
 }
+.links{
+    text-align: center;
+    padding-top: 20px;
+    font-size: 48px;
+}
+.links a{
+    color: lawngreen;
+}
+.links a:visited{
+    color: lawngreen;
+}
 .tools{
     width: 100%;
     display: flex;
@@ -1122,7 +1133,8 @@ border-bottom-right-radius: 10%;
     text-align: center;
     font-size: 40px;
     font-weight: 800;
-    color: rgb(85, 40, 14);
+    color: rgba(0,0,0,.6);
+    text-shadow: 3px 2px 3px rgba(255,255,255,.2);
 
   }
   .tool::before{
