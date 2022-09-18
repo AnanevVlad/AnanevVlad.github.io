@@ -1120,7 +1120,6 @@ transform: translate(-50%,-50%);
 
  
   }
-
 .tool{
     width: 500px;
     height: 50px;
@@ -1156,7 +1155,7 @@ border-top: 50px solid gray;
 
 .boat_scene{
     width: 100%;
-    height: 100vh;
+ height: 900px;
     background: aquamarine;
     position: relative;
 }
@@ -1166,9 +1165,9 @@ border-top: 50px solid gray;
     bottom: 0;;
     left:50%;
     transform: translate(-50%,0);
-  border-bottom: 20vh solid lightseagreen;
-  border-left: 20vh solid transparent;
-  border-right: 20vh solid transparent;
+  border-bottom: 200px solid lightseagreen;
+  border-left: 200px solid transparent;
+  border-right: 200px solid transparent;
 }
 .boat{
     position: relative;
@@ -1181,7 +1180,6 @@ border-top: 50px solid gray;
 .boat_position{
     position: absolute;
     z-index: 10;
-    bottom: 5vh;
     bottom: 10%;
     left: 50%;
     transform: translateX(-50%);
