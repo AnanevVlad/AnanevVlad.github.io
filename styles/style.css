@@ -1676,7 +1676,9 @@ z-index: 10;
     transform: translateY(-50%);
    }
    .wrapper_number:hover::before{
-    background: url('../img/css_sprites.png') -50px -250px;
+    /* background: url('../img/css_sprites.png') -50px -250px; */
+    background-image: -webkit-image-set(url('../img/css_sprites.png') 1x );
+    background-position: 250px 50px;
     background: -moz-linear-gradient(white 50%,white 50%);
    }
    .wrapper_number::after{
