@@ -1669,12 +1669,15 @@ z-index: 10;
     position: absolute;
     width: 40px;
     height: 50px;
-  background: url('../img/css_sprites.png') -50px -250px;
-  background: -moz-linear-gradient(180deg, white 50%,white 50%);
+ background: white;
+  background: -moz-linear-gradient(white 50%,white 50%);
     z-index: 10;
     right: 0;
     top: 50%;
     transform: translateY(-50%);
+   }
+   .wrapper_number:hover::before{
+    background: url('../img/css_sprites.png') -50px -250px;
    }
    .wrapper_number::after{
     content: '';
@@ -1692,18 +1695,13 @@ z-index: 10;
     z-index: 15;
    background: transparent;
    }
-   input[type="number"]:hover{
-    background: -moz-linear-gradient(180deg, white 50%,white 50%);
-   }
+  
    input[type='number']::-webkit-inner-spin-button
    { 
      -webkit-appearance: none;  
        display: block;
-          width: 20px;}
-  
-  
-  
-  
+          width: 30px;}
+          
           .wrapper_form{
             width: 800px;
             margin: 0 auto;
