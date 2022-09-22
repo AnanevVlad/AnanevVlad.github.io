@@ -1711,3 +1711,12 @@ z-index: 10;
      input[type='submit']{
       padding: 10px;
      }
+     .test{
+        width: 100px;
+        height: 100px;
+       background: whitesmoke;
+       transition: all 1s linear;
+     }
+     input[type='checkbox']:checked ~ .test{
+        background: #091a7a;
+     }
