@@ -1670,7 +1670,6 @@ z-index: 10;
     width: 40px;
     height: 50px;
  background: white;
-  background: -moz-linear-gradient(white 50%,white 50%);
     z-index: 10;
     right: 0;
     top: 50%;
@@ -1678,6 +1677,7 @@ z-index: 10;
    }
    .wrapper_number:hover::before{
     background: url('../img/css_sprites.png') -50px -250px;
+    background: -moz-linear-gradient(white 50%,white 50%);
    }
    .wrapper_number::after{
     content: '';
