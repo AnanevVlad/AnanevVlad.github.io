@@ -1,3 +1,24 @@
+@import url('https://fonts.googleapis.com/css2?family=Shadows+Into+Light&display=swap');
+@font-face {
+    font-family: 'boncegro_ff_4fregular';
+    src: url('../fonts/boncegro/boncegro_ff_4f-webfont.eot');
+    src: url('../fonts/boncegro/boncegro_ff_4f-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/boncegro/boncegro_ff_4f-webfont.woff2') format('woff2'),
+         url('../fonts/boncegro/boncegro_ff_4f-webfont.woff') format('woff'),
+         url('../fonts/boncegro/boncegro_ff_4f-webfont.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+
+}
+@font-face {
+    font-family: 'Linerama';
+    src: url('../fonts/linerama/Linerama.eot');
+    src: url('../fonts/linerama/Linerama.eot') format('embedded-opentype'),
+         url('../fonts/linerama/Linerama.woff2') format('woff2'),
+         url('../fonts/linerama/Linerama.woff') format('woff'),
+         url('../fonts/linerama/Linerama.ttf') format('truetype');
+}
+
 html,
 body,
 div,
@@ -640,8 +661,12 @@ h3 {
     display: inline-block;
     border-right: 2px solid green;
     font-size: 48px;
+    font-family: 'Shadows Into Light', cursive;
+  
 
 }
+
+
 
 .nav_menu li:last-child {
     border: 0;
@@ -689,6 +714,7 @@ li>a {
     position: absolute;
     opacity: 0;
     pointer-events: none;
+    font-family: 'boncegro_ff_4fregular';
 
 }
 
@@ -714,6 +740,7 @@ li>a {
     right: 100%;
     bottom: 0;
     padding: 0 25px;
+  
 }
 
 .nav_menu_block_grid {
@@ -732,6 +759,7 @@ li>a {
     height: 0;
     overflow: hidden;
     opacity: 50%;
+    font-family: 'Linerama';
 }
 
 .nav_menu_block>ul>li:hover>ul {
