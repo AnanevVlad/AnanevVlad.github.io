@@ -291,6 +291,7 @@ max-height: 650px !important;
 .contacts .button_wrap{
   align-self: center;
   position: relative;
+  margin: 0 auto;
 
 }
 .contacts .button_wrap::before{
@@ -387,6 +388,9 @@ footer ul{
   }
 }
 @media screen and (max-width: 980px){
+  .contacts form {
+    width: 100%;
+  }
   .wrapper{
     padding: 0 50px;
   }
