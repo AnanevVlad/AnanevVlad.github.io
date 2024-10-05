@@ -418,3 +418,19 @@ footer ul{
   font-size: 24px;
 }
 }
+@media screen and (max-width: 740px){
+  .intro {
+    flex-direction: column;
+    gap:50px;
+
+  }
+  .intro>img {
+    max-width: 300px;
+    align-self: center;
+  }
+  header ul {
+    font-size: 15px;
+    gap: 10px;
+    width: 200px;
+  }
+}
