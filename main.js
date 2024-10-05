@@ -30,18 +30,6 @@
         });
     });
     updateBackground();
-    var swiper = new Swiper(".mySwiper", {
-      slidesPerView: "1",
-      spaceBetween: 30,
-      loop: true,
-      autoHeight: true,
-      breakpoints: {
-       
-       981: {
-          slidesPerView: 2,
-          spaceBetween: 20,
-        },
-      }
-    });
+ 
    
 });

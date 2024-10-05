@@ -8,6 +8,19 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
     <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
     <script src="main.js"></script>
+    <script>   var swiper = new Swiper(".mySwiper", {
+      slidesPerView: "1",
+      spaceBetween: 30,
+      loop: true,
+      autoHeight: true,
+      breakpoints: {
+       
+       981: {
+          slidesPerView: 2,
+          spaceBetween: 20,
+        },
+      }
+    });</script>
 </head>
 <body>
   <div class="wrapper">
@@ -107,6 +120,6 @@
         </ul>
     </footer>
   </div>
-  <script></script>
+
 </body>
 </html>
