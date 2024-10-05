@@ -388,6 +388,12 @@ footer ul{
   }
 }
 @media screen and (max-width: 980px){
+  header img,footer img{
+    width: 30px;
+  }
+  h3 {
+    font-size: 25px;
+  }
   .contacts form {
     width: 100%;
   }
