@@ -1,0 +1,420 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+html {
+  scroll-behavior: smooth;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+label{
+    cursor: pointer;
+}
+
+:root{
+    --main-color:#221F1F;
+    --text-color:#A6BBCC;
+    --second-text:white;
+
+}
+@font-face {
+    font-family: "Bold";
+    src:
+      url("fonts/Poppins-ExtraBold.ttf")
+   
+  }
+  @font-face {
+    font-family: "Light";
+    src:
+    url("fonts/Poppins-Light.ttf")
+}
+@font-face {
+    font-family: "Medium";
+    src:
+    url("fonts/Poppins-Medium.ttf")
+}
+
+body{background: var(--main-color);
+}
+h2{
+    font-size: 75px;
+    color: var(--text-color);
+    font-family: "Bold";
+    display: flex;
+    align-items: center;
+    gap: 45px;
+    white-space: nowrap;
+}
+h2::after{
+    content: "";
+    height: 3px;
+    background: var(--text-color);
+  
+    width: 100%;
+}
+h3,p,a,li{
+    color: var(--second-text);
+    font-family: "Light";
+    text-decoration: none;
+}
+h3{
+    font-size: 32px;
+    font-family: "Bold";
+}
+
+  /* wrapper */
+
+  .wrapper{
+    max-width: 1240px;
+    padding: 0 100px;
+    margin: 0 auto;
+    overflow: hidden;
+  }
+
+  /* header */
+  header{
+    padding: 30px 0;
+    position: sticky;
+    top: -10px;
+    background: var(--main-color);
+    z-index: 100;
+  
+  }
+  header>div{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  header ul{
+    display: flex;
+    font-size: 27px;
+    width: 318px;
+    justify-content: space-between;
+    gap: 20px;
+  }
+  section{
+    margin-top: 60px;
+  }
+
+  /* intro */
+  .intro{
+    display: flex;
+    justify-content: space-between;
+   
+  }
+  .intro>img{
+    border-radius: 50px;
+  }
+  h1{
+    color: var(--text-color);
+    font-size: 100px;
+    line-height: 116px;
+    font-family: "Bold";
+    max-width: 616px;
+  }
+  .intro p{
+    font-size: 28px;
+    font-family: "Medium";
+  }
+  .intro a{
+    text-decoration: underline;
+    font-size: 26px;
+    font-family: "Bold";
+  }
+/* about */
+
+h2+p{
+    max-width: 950px;
+    line-height: 44px;
+    font-size: 24px;
+    margin: 50px auto;
+}
+.about ul {
+    display: flex;
+    justify-content: space-between;
+
+}
+.about ul div{
+    --w: 200px;
+    width: var(--w);
+    height: var(--w);
+    border-radius: 50%;
+    border: 1px solid #666666;
+    display: inline-grid;
+    place-content: center;
+    box-sizing: border-box;
+    position: relative;
+    cursor: pointer;
+    margin-bottom: 20px;
+}
+.about ul div::before{
+    content: "";
+    position: absolute;
+    border-radius: 50%;
+    inset: 0;
+}
+.about ul div p{
+    font-size: 40px;
+}
+  .about ul div::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%; /* Устанавливаем ширину */
+    height: 100%; /* Устанавливаем высоту */
+  
+}
+.about path{
+  fill: var(--text-color);
+
+}
+.about svg{
+  width: 60px;
+  display: block;
+  margin: 0 auto;
+}
+.about li>p{
+  text-align: center;
+  margin-top: 10px;
+}
+.works .swiper-slide img{
+  display: block;
+width: 100%;
+object-fit: cover;
+height: calc(100% - 35px);
+
+
+
+  
+}
+.swiper-slide{
+height: 100% !important;
+
+max-height: 650px !important;
+ 
+
+
+}
+.works h4{
+  font-size: 35px;
+  font-family: "Bold";
+  color: white;
+  background: var(--text-color);
+  height: 35px;
+}
+.works a{
+  position: relative;
+}
+.works a::before{
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  left: 0;
+  top: 0;
+  z-index: 2;
+  transition: 0.5s;
+
+}
+.swiper-slide:hover>a::before{
+  background-color: var(--text-color);
+  opacity: 0.3;
+
+}
+.contacts>div{
+  margin: 0 auto;
+  overflow: hidden;
+  
+}
+.contacts form{
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  margin: 0 auto;
+  width: 800px;
+  gap: 30px 0;
+ 
+
+}
+.contacts form input,.contacts form textarea{
+  position: relative;
+  background: none;
+  border: none;
+  outline: none;
+  resize: none;
+  font-size: 20px;
+  color: white;
+  font-family: "Light";
+  max-height: 150px;
+  box-sizing: border-box;
+  padding-bottom: 20px;
+  width: 100%;
+  border-bottom: 2px solid white;
+}
+.contacts .button_wrap{
+  align-self: center;
+  position: relative;
+
+}
+.contacts .button_wrap::before{
+  content: "";
+  width: 2px;
+  background: white;
+  position: absolute;
+  left: 0;
+  top: 0;
+  height: 0%;
+  transition: 0.5s;
+}
+.contacts .button_wrap::after{
+  content: "";
+  width: 2px;
+  background: white;
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  height: 0%;
+  transition: 0.5s;
+}
+.contacts .button_wrap:hover::before{
+  height: 100%;
+}
+.contacts .button_wrap:hover::after{
+  height: 100%;
+}
+.contacts form button{
+position: relative;
+  background: none;
+  text-align: center;
+  padding: 20px;
+  font-size: 20px;
+  color: white;
+ 
+  border: none;
+  cursor: pointer;
+  box-sizing: border-box;
+}
+
+.contacts form button::before{
+  content: "";
+  width: 0%;
+  position: absolute;
+  height: 2px;
+  background: white;
+  left: 0;
+  top: 0;
+  transition: 0.5s;
+}
+.contacts form button::after{
+  content: "";
+  width: 0%;
+  position: absolute;
+  height: 2px;
+  background: white;
+  right:0;
+  bottom: 0;
+  transition: 0.5s;
+}
+.contacts .button_wrap:hover>button::after{
+  width: 100%;
+}
+.contacts .button_wrap:hover>button::before{
+  width: 100%;
+}
+footer{
+  margin-top: 60px;
+  padding: 30px 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+footer img{
+  width: 45px;
+}
+footer ul{
+  display: flex;
+  gap: 0 30px;
+}
+@media screen and (max-width: 1080px){
+  h1{
+    font-size: 80px;
+    line-height: 100px;
+    margin-bottom: 20px;
+  }
+  h2{
+    font-size: 50px;
+  }
+  h2+p{
+    font-size: 20px;
+    line-height: 35px;
+  }
+}
+@media screen and (max-width: 980px){
+  .wrapper{
+    padding: 0 50px;
+  }
+  h1{
+    font-size: 50px;
+    line-height: 70px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+  }
+  h2{
+    font-size: 30px;
+  }
+  h2+p{
+    font-size: 16px;
+    line-height: 35px;
+  }
+  .about ul {
+    flex-direction: column;
+    align-items: center;
+    gap: 30px 0;
+  }
+  .about ul div {
+    --w:300px;
+  }
+  .about ul div p {
+    font-size: 50px;
+}
+.about li>p {
+  font-size: 24px;
+}
+}
