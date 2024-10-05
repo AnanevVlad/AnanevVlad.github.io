@@ -418,7 +418,7 @@ footer ul{
   font-size: 24px;
 }
 }
-@media screen and (max-width: 740px){
+@media screen and (max-width: 800px){
   .intro {
     flex-direction: column;
     gap:50px;
